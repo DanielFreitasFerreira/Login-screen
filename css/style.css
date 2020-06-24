@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+.imgpos {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#cabecalho h2 {
+    color: #2A36B1;
+    text-align: center;
+}
+.login {
+    width: 350px;
+    margin: auto;
+}
+.card {
+    background-color: violet;
+}
