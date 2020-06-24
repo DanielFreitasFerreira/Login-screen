@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 01</title>
+    <link rel="stylesheet" href="css/Reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <header>
 
-        <div class="cabecalho">
-            <img src="img/logo.png" alt="">
+        <div>
+            <img src="img/logo.png" alt="" class="imgpos">
             <h2>Please, login into your account</h2>
         </div>
 
@@ -21,25 +22,28 @@
 
         <div class="container">
             
-            <form action="" class="login">
+            <div class="login">
 
-                <label>Email:</label>
-                <input type="email" name="email" placeholder="Enter your email">
+                <form action="" class="card">
 
-                <label>Senha:</label>
-                <input type="password" name="" placeholder="Enter your password">
-
-                <div class="forgot-password">
-                    <a href="#"><strong>Forget Password ?</strong></a>
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="Enter your email">
+    
+                    <label>Senha:</label>
+                    <input type="password" name="" placeholder="Enter your password">
+    
+                    <div class="forgot-password">
+                        <a href="#"><strong>Forget Password ?</strong></a>
+                    </div>
+    
+                    <div class="buttonLogin">
+                        <button type="submit">LOGIN</button>
+                    </div>
+                </form>
+    
+                <div id="createAccount">
+                    <a href="#">Create Account</a>
                 </div>
-
-                <div class="buttonLogin">
-                    <button type="submit">LOGIN</button>
-                </div>
-            </form>
-
-            <div id="createAccount">
-                <a href="#">Create Account</a>
             </div>
 
         </div>
