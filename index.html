@@ -11,8 +11,8 @@
     
     <header>
 
-        <div>
-            <img src="img/logo.png" alt="" class="imgpos">
+        <div class="imgpos">
+            <img src="img/logo.png" alt="">
             <h2>Please, login into your account</h2>
         </div>
 
@@ -22,28 +22,23 @@
 
         <div class="container">
             
-            <div class="login">
+            <form action="" class="card">
 
-                <form action="" class="card">
+                <input type="email" name="email" placeholder="Enter your email">
 
-                    <label>Email:</label>
-                    <input type="email" name="email" placeholder="Enter your email">
-    
-                    <label>Senha:</label>
-                    <input type="password" name="" placeholder="Enter your password">
-    
-                    <div class="forgot-password">
-                        <a href="#"><strong>Forget Password ?</strong></a>
-                    </div>
-    
-                    <div class="buttonLogin">
-                        <button type="submit">LOGIN</button>
-                    </div>
-                </form>
-    
-                <div id="createAccount">
-                    <a href="#">Create Account</a>
+                <input type="password" name="" placeholder="Enter your password">
+
+                <div class="forgot-password">
+                    <a href="#"><strong>Forget Password ?</strong></a>
                 </div>
+
+                <div class="buttonLogin">
+                    <button type="submit">LOGIN</button>
+                </div>
+            </form>
+
+            <div id="createAccount">
+                <a href="#">Create Account</a>
             </div>
 
         </div>
