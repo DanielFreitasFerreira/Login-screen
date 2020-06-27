@@ -3,12 +3,9 @@ body {
     background-color: #fff;
 }
 .imgpos {
+    color: #2A36B1;
     margin-top: 25px;
     margin-bottom: 30px;
-    text-align: center;
-}
-#cabecalho h2 {
-    color: #2A36B1;
     text-align: center;
 }
 .card {
@@ -38,4 +35,17 @@ body {
     height: 60px;
     outline: none;
     width: 100%;
+}
+.forgot-password, p {
+    text-align: right;
+    font-weight: bold;
+    color: #EA4B64;
+    margin-bottom: 50px;
+}
+.createAccount, a {
+    color: #039BE5;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
 }
