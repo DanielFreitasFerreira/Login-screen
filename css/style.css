@@ -6,15 +6,17 @@ body {
     margin-top: 25px;
     margin-bottom: 30px;
     text-align: center;
-    color: #3048B1;
+}
+#cabecalho h2 {
+    color: #2A36B1;
+    text-align: center;
 }
 .card {
     width: 300px;
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 30px;
     background-color: #F5F5F5;
     box-shadow: -1px 1px 5px #ccc;
-    margin-top: 50px;
+    margin-top: 40px;
     margin: 0 auto;
 }
 .card input {
@@ -23,35 +25,17 @@ body {
     color: #2F4F4F;
     margin-bottom: 15px;
     border-bottom: 1px solid #000;
-    padding: 25px;
+    padding: 30px;
 }
 .buttonLogin button {
     text-align: center;
-    background: #3048b1;
+    background: #3F51B5;
     border: 1px solid #dadada;
     color: #fff;
     cursor: pointer;
     padding-bottom: 20px 0;
     font-weight: bold;
-    font-size: 18px;
     height: 60px;
     outline: none;
     width: 100%;
-}
-.forgot-password a, p {
-    color: #EA517F;
-    font-weight: bold;
-    font-size: 15px;
-    text-decoration: none;
-    text-align: right;
-    margin-top: 8px;
-    margin-bottom: 50px;
-}
-.createAccount, a {
-    color: #59AFE7;
-    font-size: bold;
-    text-align: center;
-    margin-top: 30px;
-    text-decoration: none;
-    outline: none;
 }
